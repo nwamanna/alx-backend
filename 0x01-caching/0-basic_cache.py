@@ -17,7 +17,7 @@ class BasicCache(BaseCaching):
         """ Add an item in the cache
         """
         if key is None or item is None:
-            print(type(self.cache_data))
+            # print(type(self.cache_data))
             pass
         else:
             # print(type(self.cache_data))
